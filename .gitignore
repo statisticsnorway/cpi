@@ -1,0 +1,11 @@
+*.csdb
+*.cslog
+*.xlsx
+*.pff
+*.lst
+*.log
+/Docs/*
+*.bak
+*.backup
+*.orig
+*.err
