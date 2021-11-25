@@ -1,0 +1,21 @@
+﻿[CSPro Application]
+Version=CSPro 7.6
+Label=GETPRICES
+Name=GETPRICES
+AppType=DataEntry
+OperatorID=No
+ShowEndCaseDialog=No
+CaseTree=Never
+[External Dictionaries]
+File=..\CPI_app\CPI.dcf
+[AppCode]
+File=.\admin.ent.apc
+[Message]
+File=.\admin.ent.mgf
+[Help]
+File=.\admin.ent.qsf
+[Forms]
+File=.\admin.fmf
+[Dictionary Types]
+Dict-Type=.\admin.dcf,Input,.\admin.fmf
+Dict-Type=..\CPI_app\CPI.dcf,External

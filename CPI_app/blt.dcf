@@ -1,0 +1,133 @@
+﻿[Dictionary]
+Version=CSPro 7.5
+Label=Blt Dictionary
+Name=BLT_DICT
+RecordTypeStart=0
+RecordTypeLen=0
+Positions=Relative
+ZeroFill=Yes
+DecimalChar=Yes
+SecurityOptions=89CF6908B80586090C86A40BC04A034AD2B0869CECB396E2FE094ACFA406E2AE
+
+[Level]
+Label=Blt Level
+Name=BLT_LEVEL
+
+[IdItems]
+
+[Item]
+Label=area code
+Name=REG
+Start=1
+Len=3
+ZeroFill=Yes
+
+[Item]
+Label=Month
+Name=MIS
+Start=4
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=Year
+Name=RIK
+Start=6
+Len=4
+ZeroFill=Yes
+
+[Item]
+Label=product number
+Name=NSTR
+Start=10
+Len=3
+ZeroFill=Yes
+
+[Item]
+Label=shop number
+Name=ZKPO
+Start=13
+Len=12
+ZeroFill=Yes
+
+[Item]
+Label=some kind of number that I don't really know
+Name=PNS
+Start=25
+Len=2
+ZeroFill=Yes
+
+[Record]
+Label=Blt Record
+Name=BLT_REC
+RecordTypeValue=''
+RecordLen=159
+
+[Item]
+Label=Type of form (=1)
+Name=TIP
+Start=27
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=Price collector ID
+Name=REESR
+Start=28
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=day
+Name=DEN
+Start=30
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=description of product
+Name=HAR
+Start=32
+Len=100
+DataType=Alpha
+
+[Item]
+Label=volume/weigth
+Name=OBJEM
+Start=132
+Len=7
+Decimal=2
+DecimalChar=Yes
+ZeroFill=Yes
+
+[Item]
+Label=Price
+Name=CINAUP
+Start=139
+Len=9
+Decimal=2
+DecimalChar=Yes
+ZeroFill=Yes
+
+[Item]
+Label=Price per volum
+Name=CINA
+Start=148
+Len=9
+Decimal=2
+DecimalChar=Yes
+ZeroFill=Yes
+
+[Item]
+Label=Calculation variable. To be ignored here
+Name=OVSC
+Start=157
+Len=1
+DataType=Alpha
+
+[Item]
+Label=Reason for price change
+Name=PRICHINA
+Start=158
+Len=2
+DataType=Alpha

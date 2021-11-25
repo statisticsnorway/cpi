@@ -1,0 +1,93 @@
+﻿[Dictionary]
+Version=CSPro 7.5
+Label=products
+Name=PRODUCTS_DICT
+RecordTypeStart=0
+RecordTypeLen=0
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+SecurityOptions=92E6476EECED5C8F54953794A22E0AB232AA3B2C147DB4A2C56BBA29EEE6257C
+
+[Languages]
+EN=English
+UA=Ukranian
+
+[Level]
+Label=products questionnaire
+Name=PRODUCTS_QUEST
+
+[IdItems]
+
+[Item]
+Label=Misto number|Код міста
+Name=P_MISTO
+Start=1
+Len=5
+
+[Item]
+Label=Shop type (1= shop, 2=market)
+Name=P_SHOP_TYPE
+Start=6
+Len=1
+
+[Item]
+Label=Shop id number|Код магазину
+Name=P_SHOP
+Start=7
+Len=12
+
+[Item]
+Label=Product id number|Код товару (послуги)
+Name=P_PRODUCT
+Start=19
+Len=3
+
+[Item]
+Label=Product sub id number
+Name=P_SUBID
+Start=22
+Len=2
+
+[Record]
+Label=products record
+Name=PRODUCTS_REC
+RecordTypeValue=''
+RecordLen=252
+
+[Item]
+Label=Coicop number|Код КІСЦ
+Name=P_COICOP
+Start=24
+Len=11
+DataType=Alpha
+
+[Item]
+Label=Description of product|Характеристика товару (послуги)
+Name=P_PROD_DESC
+Start=35
+Len=100
+DataType=Alpha
+
+[Item]
+Label=Unit of product|Одиниця виміру товару (послуги)
+Name=P_UNIT
+Start=135
+Len=8
+Decimal=2
+DecimalChar=Yes
+
+[Item]
+Label=Price last month|Ціна на товар (послугу) у попередньому місяці
+Name=P_PRICE
+Start=143
+Len=10
+Decimal=2
+DecimalChar=Yes
+
+[Item]
+Label=Description of coicop product|Опис товару (послуги) за КІСЦ
+Name=P_COICOP_DESC
+Start=153
+Len=100
+DataType=Alpha

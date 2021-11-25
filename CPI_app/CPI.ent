@@ -1,0 +1,37 @@
+﻿[CSPro Application]
+Version=CSPro 7.5
+Label=CPI
+Name=CPI
+AppType=DataEntry
+OperatorID=No
+ShowEndCaseDialog=No
+PartialSave=Yes
+CAPI=Yes
+CAPIFont1=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont2=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont1Color=0
+CAPIFont2Color=16711680
+CaseTree=Desktop
+VerifyFrequency=1
+VerifyStart=RANDOM
+ParadataCollection=AllEvents
+ParadataRecordIteratorLoadCases=Yes
+ParadataRecordValues=Yes
+ParadataRecordCoordinates=Yes
+ParadataRecordInitialPropertyValues=Yes
+ParadataDeviceStateMinutes=5
+[External Dictionaries]
+File=.\products.dcf
+File=.\coicopLvl3.dcf
+[AppCode]
+File=.\CPI.ent.apc
+[Message]
+File=.\CPI.ent.mgf
+[Help]
+File=.\CPI.ent.qsf
+[Forms]
+File=.\CPI.fmf
+[Dictionary Types]
+Dict-Type=.\CPI.dcf,Input,.\CPI.fmf
+Dict-Type=.\products.dcf,External
+Dict-Type=.\coicopLvl3.dcf,External

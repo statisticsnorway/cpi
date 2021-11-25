@@ -1,0 +1,17 @@
+﻿[CSPro Application]
+Version=CSPro 7.5
+Label=COICOP_LVL3_EDIT
+Name=COICOP_LVL3_EDIT
+AppType=DataEntry
+OperatorID=No
+CaseTree=Always
+[AppCode]
+File=.\Coicop_lvl3_edit.ent.apc
+[Message]
+File=.\Coicop_lvl3_edit.ent.mgf
+[Help]
+File=.\Coicop_lvl3_edit.ent.qsf
+[Forms]
+File=.\Coicop_lvl3_edit.fmf
+[Dictionary Types]
+Dict-Type=.\COICOPLVL3_DICT.dcf,Input,.\Coicop_lvl3_edit.fmf

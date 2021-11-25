@@ -1,0 +1,34 @@
+﻿[Run Information]
+Version=CSPro 7.5
+AppType=Entry
+Description=CPI Price collection
+
+[DataEntryInit]
+Interactive=Ask
+StartMode=modify;4646101  3         1413202102
+AutoAdd=Yes
+
+ShowInApplicationListing=Never
+
+[Files]
+Application=.\CPI.ent
+InputData=..\Data\CPIData.csdb|CSPRODB
+
+[ExternalFiles]
+COICOPLVL3_DICT=..\Lookup\Coicop_lvl3.csdb|CSPRODB
+PRODUCTS_DICT=..\Lookup\46101_м_Львів\products.csdb|CSPRODB
+
+[UserFiles]
+LFFILE=
+
+[Parameters]
+Language=EN
+OBLAST=46
+MISTO=46101
+MISTO_NAME=м Львів
+ENUMERATOR=3
+SHOP=         141
+SHOPTYPE=3
+SHOPNAME=Аптека DS вул.Кн.Ольги, 114                                                                         
+OnExit=..\Menu\Menu.pff
+

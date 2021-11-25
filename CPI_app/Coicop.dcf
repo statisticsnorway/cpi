@@ -1,0 +1,83 @@
+﻿[Dictionary]
+Version=CSPro 7.1
+Label=Coicop
+Name=COICOP_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+
+[Level]
+Label=Coicop questionnaire
+Name=COICOP_QUEST
+
+[IdItems]
+
+[Item]
+Label=Level 1
+Name=LVL1
+Start=2
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=Level 2
+Name=LVL2
+Start=4
+Len=1
+
+[Item]
+Label=Level 3
+Name=LVL3
+Start=5
+Len=1
+
+[Record]
+Label=Coicop record
+Name=COICOP_REC
+RecordTypeValue='1'
+RecordLen=305
+
+[Item]
+Label=Level 1 Description
+Name=DESC_LVL1
+Start=6
+Len=100
+DataType=Alpha
+
+[Item]
+Label=Level 2 description
+Name=DESC_LVL2
+Start=106
+Len=100
+DataType=Alpha
+
+[Item]
+Label=level 3 description
+Name=DESC_LVL3
+Start=206
+Len=100
+DataType=Alpha
+
+[Record]
+Label=Level 4
+Name=LVL4_REC
+RecordTypeValue='2'
+Required=No
+MaxRecords=99
+RecordLen=107
+
+[Item]
+Label=Level 4
+Name=LVL4
+Start=6
+Len=2
+DataType=Alpha
+
+[Item]
+Label=level 4 description
+Name=DESC_LVL4
+Start=8
+Len=100
+DataType=Alpha

@@ -1,0 +1,254 @@
+﻿[Dictionary]
+Version=CSPro 7.5
+Label=CPI
+Name=CPI_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+SecurityOptions=113BC970EB49F4B66300DC18D40670261337558E7B4FBAEFE7C020F6B1340F15
+
+[Languages]
+EN=English
+UA=Ukrainian
+
+[Level]
+Label=CPI questionnaire
+Name=CPI_QUEST
+
+[IdItems]
+
+[Item]
+Label=State|Регіон
+Name=OBLAST_NO
+Start=2
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=City (Misto)|Місто
+Name=MISTO_NO
+Start=4
+Len=5
+ZeroFill=Yes
+
+[Item]
+Label=Enumerator|Реєстратор
+Name=ENUMERATOR_NO
+Start=9
+Len=3
+
+[Item]
+Label=Shop|Магазин
+Name=SHOP
+Start=12
+Len=12
+
+[Item]
+Label=Shop type (1=shop, 2=Market, 3 = monitoring - shop, 4 = monitoring, market)
+Name=SHOP_TYPE
+Start=24
+Len=1
+
+[Item]
+Label=Year of data collection|Звітний рік
+Name=CPI_YEAR
+Start=25
+Len=4
+ZeroFill=Yes
+
+[Item]
+Label=Month of data collection|Звітний місяць
+Name=CPI_MONTH
+Start=29
+Len=2
+ZeroFill=Yes
+
+[Record]
+Label=Cover page
+Name=COVERPAGE_REC
+RecordTypeValue='1'
+RecordLen=183
+
+[Item]
+Label=City name|Назва міста
+Name=MISTO_NAME
+Start=31
+Len=30
+DataType=Alpha
+
+[Item]
+Label=Shop name
+Name=SHOP_NAME
+Start=61
+Len=100
+DataType=Alpha
+
+[Item]
+Label=Current Month and Day|Поточна дата (місяць, рік)
+Name=MONTH_DAY
+Start=161
+Len=4
+ZeroFill=Yes
+
+[Item]
+Label=Current hour and minute|Поточний час (години, хвилини)
+Name=HOUR_MINUTE
+Start=165
+Len=6
+ZeroFill=Yes
+
+[Item]
+Label=product group|Група товарів
+Name=PRODGROUP
+Start=171
+Len=6
+DataType=Alpha
+
+[Item]
+Label=Product
+Name=PRODUCT
+Start=177
+Len=5
+DataType=Alpha
+
+[Item]
+Label=end questionnaire|Кінець анкети
+Name=ENDQUEST
+Start=182
+Len=1
+
+[Item]
+Label=dummy field to deal with price out of range|Додаткове поле для роботи з цінами, що виходять за межі допустимих значень
+Name=DUMMY
+Start=183
+Len=1
+
+[Record]
+Label=products record
+Name=PROD_REC
+RecordTypeValue='2'
+Required=No
+MaxRecords=900
+RecordLen=176
+
+[Item]
+Label=product number|Код товару (послуги)
+Name=PROD_NO
+Start=31
+Len=3
+
+[ValueSet]
+Label=product number|Код товару (послуги)
+Name=PROD_NO_VS1
+Value=1:999;1-999
+Value='   ';notappl
+Name=NOTAPPL,Special
+
+[Item]
+Label=product sub id
+Name=PROD_SUB_ID
+Start=34
+Len=2
+
+[ValueSet]
+Label=product sub id
+Name=PROD_SUB_ID_VS1
+Value=1:99;1-99
+Value='  ';notappl
+Name=NOTAPPL,Special
+
+[Item]
+Label=Coicop code|Код КІСЦ
+Name=PROD_COICOP
+Start=36
+Len=11
+DataType=Alpha
+
+[Item]
+Label=product description|Характеристика товару (послуги)
+Name=PROD_DESC
+Start=47
+Len=100
+DataType=Alpha
+
+[Item]
+Label=product price|Ціна на товар (послугу)
+Name=PROD_PRICE
+Start=147
+Len=10
+Decimal=2
+DecimalChar=Yes
+
+[ValueSet]
+Label=product price|Ціна на товар (послугу)
+Name=PROD_PRICE_VS1
+Value=1.00:9999999.99;1-infinity :)
+Value='          ';notappl
+Name=NOTAPPL,Special
+
+[Item]
+Label=product price last month|Ціна на товар (послугу) у попередньому місяці
+Name=PROD_PRICE_LAST_MONTH
+Start=157
+Len=10
+Decimal=2
+DecimalChar=Yes
+
+[ValueSet]
+Label=product price last month|Ціна на товар (послугу)
+Name=PROD_PRICE_LAST_MONTH_VS1
+Value=1.00:9999999.99;1-infinity :)
+Value='          ';notappl
+Name=NOTAPPL,Special
+
+[Item]
+Label=product unit|Одиниця виміру товару (послуги)
+Name=PROD_UNIT
+Start=167
+Len=8
+Decimal=2
+DecimalChar=Yes
+
+[ValueSet]
+Label=product unit|Одиниця виміру товару (послуги)
+Name=PROD_UNIT_VS1
+Value=1.00:99999.99;1-999999
+Value='        ';notappl
+Name=NOTAPPL,Special
+
+[Item]
+Label=Reason for change in price|Причина зміни ціни
+Name=PROD_COMMENTS
+Start=175
+Len=2
+
+[ValueSet]
+Label=Reason for change in price
+Name=PROD_COMMENTS_VS
+Value=0;Wrong entry|0 Помилкове входження
+Value=1;Package volume|1 Об’єм пакування
+Value=2;Sale|2 Розпродаж
+Value=3;Seasonal sale|3 Сезонний розпродаж
+Value=4;Normal price|4 Нормальна ціна
+Value=5;Action|5 Акція
+Value=6;Additional offer|6 Додаткова пропозиція
+Value=7;Price recovery|7 Відновлення ціни
+Value=8;Manufacturer's price|8 Ціна виробника
+Value=9;Trade margin|9 Торгова націнка
+Value=10;Excise duty|10 Акцизний збір
+Value=11;Hryvnia exchange rate|11 Курс гривні
+Value=12;The minimum wage|12 Мінімальна зарплата
+Value=13;Cost|13 Собівартість
+Value=14;New arrival|14 Нове надходження
+Value=15;New calculation|15 Нова калькуляція
+Value=16;Normative act|16 Нормативний акт
+Value=17;Seasonality|17 Сезонність
+Value=30;Price transfer|30 Перенесення ціни
+Value=31;Imputed price|31 Імпутована ціна
+Value=32;Expert evaluation|32 Експертна оцінка
+Value=98;Other|98 Інше
+Value=99;Unforeseen reasons|99 Непередбачувані причини
+Value='  ';90 NOTAPPL|90 NOTAPPL
+Name=NOTAPPL,Special

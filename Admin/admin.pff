@@ -1,0 +1,11 @@
+﻿[Run Information]
+Version=CSPro 7.5
+AppType=Entry
+
+[Files]
+Application=.\admin.ent
+InputData=|type=None
+
+
+[Parameters]
+Language=UA

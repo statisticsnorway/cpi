@@ -1,0 +1,12 @@
+﻿[Run Information]
+Version=7.5
+AppType=Sync
+
+[ExternalFiles]
+CPI_DICT=cpi_dict.csdb
+
+[Parameters]
+SyncDirection=Get
+SyncType=CSWeb
+SyncUrl=http://csweb.ukrstat.gov.ua/csweb/api/
+Silent=No

@@ -1,0 +1,27 @@
+﻿[CSPro Application]
+Version=CSPro 7.6
+Label=MENU
+Name=MENU
+AppType=DataEntry
+OperatorID=No
+CAPI=Yes
+CreateListing=No
+CreateLog=No
+ParadataCollection=AllEvents
+ParadataRecordInitialPropertyValues=Yes
+ParadataDeviceStateMinutes=5
+[External Dictionaries]
+File=..\CPI_app\CPI.dcf
+File=..\CPI_app\products.dcf
+[AppCode]
+File=.\menu.ent.apc
+[Message]
+File=.\menu.ent.mgf
+[Help]
+File=.\menu.ent.qsf
+[Forms]
+File=.\menu.fmf
+[Dictionary Types]
+Dict-Type=.\menu.dcf,Input,.\menu.fmf
+Dict-Type=..\CPI_app\CPI.dcf,External
+Dict-Type=..\CPI_app\products.dcf,External

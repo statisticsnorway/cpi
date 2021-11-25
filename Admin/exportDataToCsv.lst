@@ -1,0 +1,27 @@
+﻿Application     C:\_tmp\Ukraina\CPI\CPI\Admin\exportDataToCsv.bch
+Type            BATCH
+Input Data      <<CSPro DB>> C:\_tmp\Ukraina\CPI\CPI\Admin\cpi_dict.csdb
+<File>          bltAHandler=
+<File>          bltBhandler=
+
+Date            Nov 19, 2020
+Start Time      14:40:58
+End Time        14:40:58
+
+CSPro Process Summary
+
+      ╔══════════════════════════════════════════════════════╗
+      ║    129685 Records Read   100% of input file          ║
+      ║         0 Ignored:       0 Unknown         0 Erased  ║
+      ║         0 Messages:      0 E      0 W      0 User    ║
+      ╠═════════╦══════════════╦══════════════╦══════════════╣
+      ║  Level  ║  Input Case  ║  Bad Struct  ║  Level Post  ║
+      ╠═════════╬══════════════╬══════════════╬══════════════╣
+      ║      1  ║         185  ║           0  ║           0  ║
+      ╚═════════╩══════════════╩══════════════╩══════════════╝
+
+Process Messages
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,26 @@
+﻿[Run Information]
+Version=CSPro 7.5
+AppType=Batch
+
+[Files]
+Application=.\exportDataToCsv.bch
+InputData=.\cpi_dict.csdb
+OutputData=|type=None
+Listing=.\Junk\exportDataToCsv.lst
+
+[UserFiles]
+bltHandler=
+
+[Parameters]
+ViewListing=Never
+ViewResults=No
+ListingWidth=120
+MessageWrap=No
+ErrmsgOverride=No
+InputOrder=Sequential
+MISTO=000
+OBLAST=80
+MONTH=02
+YEAR =2021
+
+

@@ -1,0 +1,13 @@
+﻿[CSPro Application]
+Version=CSPro 7.5
+Label=EXPORTDATATOCSV
+Name=EXPORTDATATOCSV
+AppType=Batch
+[AppCode]
+File=.\exportDataToCsv.bch.apc
+[Message]
+File=.\exportDataToCsv.bch.mgf
+[Order]
+File=.\exportDataToCsv.ord
+[Dictionary Types]
+Dict-Type=..\CPI_app\CPI.dcf,Input,.\exportDataToCsv.ord

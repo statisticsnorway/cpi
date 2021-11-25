@@ -1,0 +1,21 @@
+﻿[Run Information]
+Version=CSPro 7.6
+AppType=Entry
+Description=Збір цін для ІСЦ
+
+[DataEntryInit]
+StartMode=Add
+
+[Files]
+Application=.\menu.ent
+InputData=|type=None
+
+[ExternalFiles]
+CPI_DICT=..\Data\CPIData.csdb
+PRODUCTS_DICT=..\Lookup\46101_м_Львів\products.csdb
+
+[UserFiles]
+LFFILE=
+
+[Parameters]
+Language=UA

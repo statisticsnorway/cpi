@@ -1,0 +1,53 @@
+{
+  "fileType": "Application Deployment Specification",
+  "version": "7.5",
+  "name": "CPI",
+  "description": "",
+  "files": [
+    {
+      "path": ".\\CPI_app\\CPI.ent"
+    },
+    {
+      "path": ".\\CPI_app\\CPI.pff"
+    },
+    {
+      "path": ".\\Lookup\\Coicop_lvl3.csdb"
+    },
+    {
+      "path": ".\\Lookup\\prodNumber_Coicop3.txt"
+    },
+    {
+      "path": ".\\Lookup\\prodNumber_Monitor.txt"
+    },
+    {
+      "path": ".\\Lookup\\regions.csv"
+    },
+    {
+      "path": ".\\Menu\\menu.ent"
+    },
+    {
+      "path": ".\\Menu\\menu.pff"
+    }
+  ],
+  "dictionaries": [
+    {
+      "path": ".\\CPI_app\\coicopLvl3.dcf"
+    },
+    {
+      "path": ".\\CPI_app\\CPI.dcf",
+      "uploadForSync": true
+    },
+    {
+      "path": ".\\CPI_app\\products.dcf"
+    },
+    {
+      "path": ".\\Menu\\menu.dcf",
+      "uploadForSync": true
+    }
+  ],
+  "deployment": {
+    "type": "CSWeb",
+    "cswebUrl": "http:\/\/csweb.ukrstat.gov.ua\/csweb\/api",
+    "ftpUrl": "ftp:\/\/"
+  }
+}

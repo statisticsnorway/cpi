@@ -1,0 +1,7 @@
+﻿[Run Information]
+Version=CSPro 7.5
+AppType=Entry
+
+[Files]
+Application=.\Coicop_lvl3_edit.ent
+InputData=..\Lookup\Coicop_lvl3.csdb

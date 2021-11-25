@@ -1,0 +1,36 @@
+﻿[Dictionary]
+Version=CSPro 7.5
+Label=coicopLvl3
+Name=COICOPLVL3_DICT
+RecordTypeStart=0
+RecordTypeLen=0
+Positions=Absolute
+ZeroFill=No
+DecimalChar=Yes
+SecurityOptions=0B7635D09D42656222BBC23CDF295B3E433848B56D29A2CE118FCBA155C1CB0F
+
+[Level]
+Label=coicopLvl3 questionnaire
+Name=COICOPLVL3_QUEST
+
+[IdItems]
+
+[Item]
+Label=Coicop lvl3 code
+Name=LVL3CODE
+Start=1
+Len=6
+DataType=Alpha
+
+[Record]
+Label=coicopLvl3 record
+Name=COICOPLVL3_REC
+RecordTypeValue=''
+RecordLen=107
+
+[Item]
+Label=Lvl 3 description
+Name=LVL3DESC
+Start=8
+Len=100
+DataType=Alpha

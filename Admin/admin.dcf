@@ -1,0 +1,78 @@
+﻿[Dictionary]
+Version=CSPro 7.5
+Label=admin
+Name=GETPRICES_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+SecurityOptions=4FACA20B06FD225EA649C37994FE225B986A07ED67F8322EB118100F7DD11A55
+
+[Languages]
+EN=English
+UA=Ukrainian
+
+[Level]
+Label=admin Level
+Name=GETPRICES_LEVEL
+
+[IdItems]
+
+[Item]
+Label=admin Identification
+Name=GETPRICES_ID
+Start=2
+Len=1
+
+[Record]
+Label=admin Record
+Name=GETPRICES_REC
+RecordTypeValue='1'
+RecordLen=46
+
+[Item]
+Label=menu
+Name=MENU
+Start=3
+Len=1
+
+[ValueSet]
+Label=menu
+Name=MENU_VS1
+Value=1;Generate price files for last month|Створити файли з цінами за минулий місяць
+Value=2;Generate price files for different month|Створити файли з цінами за різні місяці
+Value=3;upload files|Завантажити файли
+Value=4;change password|Змінити пароль
+Value=9;Quit|вихід
+
+[Item]
+Label=oblast
+Name=OBLAST
+Start=4
+Len=2
+
+[Item]
+Label=misto
+Name=MISTO
+Start=6
+Len=5
+
+[Item]
+Label=Name of misto
+Name=MISTONAME
+Start=11
+Len=30
+DataType=Alpha
+
+[Item]
+Label=month
+Name=MONTH
+Start=41
+Len=2
+
+[Item]
+Label=year
+Name=YEAR
+Start=43
+Len=4

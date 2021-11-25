@@ -1,0 +1,64 @@
+﻿10 Please enter number of oblast
+UA(10) Будь ласка, введіть код області
+
+11 and misto
+UA(11) та міста
+
+12 Please enter month to export data for
+UA(12) Будь ласка, введіть місяць, для якого потрібно експортувати дані
+
+13 and year
+UA(13) та рік
+
+14 Can't export data from the future!
+UA(14) Неможливо експортувати дані з майбутніх періодів!
+
+15 Finished generating data
+UA(15) Генерування даних завершено
+
+20 Could not open file %s for upload. Please check that it exists in the folder %s and is not opened by any other program
+UA(20) Не вдалося відкрити файл %s для завантаження. Переконайтесь, що він знаходиться в папці %s і не відкритий будь-якою іншою програмою
+
+21 The file %s does not have the right format. There is at least one error - in line %d
+UA(21) Файл %s має неправильний формат. Є, як мінімум, одна помилка - в рядку %d 
+
+30 Login
+UA(30) Логін
+
+31 Please enter new password
+UA(31) Будь ласка, введіть новий пароль
+
+32 Please enter password again
+UA(32) Будь ласка, введіть пароль знову 
+
+33 Password
+UA(33) Пароль
+
+34 Login does not match code for region. Please enter different region
+UA(34) Логін не відповідає коду регіону. Будь ласка, ведіть інший регіон
+
+35 The passwords were not the same. Please try again
+UA(35) Паролі не співпадають. Будь ласка, спробуйте ще раз
+
+36 The password has been changed
+UA(36) Пароль змінено 
+
+37 Wrong password
+UA(37) Невірний пароль
+
+38 Login should be 9 characters long: CPI_xxxxxwhere xxxxx is the 5 digits code of the area
+UA(38) Логін повинен мати 9 символів: CPI_xxxxx, де xxxxx - це 5-значний код області
+
+39 When the files are checked, please close the image and press f8 to continue
+UA(39) Коли файли перевірено, закрийте зображення та натисніть f8, щоб продовжити
+
+40 The 3-level coicopfile should only be changed every 5th year when a new basket is introduced. Are you sure (y/n)?
+UA(40) Файл COICOP на 3-х знаках має змінюватися лише раз на 5-ть років, у разі  запровадження нового споживчого набору. Ви впевнені (так/ні)?
+
+41 This will open a new application. Please read the user manual in "CPI/documentation/Change 3-lvl coicop code.docx" before proceeding!
+UA(41) Це відкриє нову програму. Перш ніж продовжити, будь ласка, ознайомтесь з керівництвом користувача, яке знаходиться у розділі "CPI/documentation/Change 3-lvl coicop code.docx"! 
+
+42 Edit coicopfile
+UA(42) Редагувати файл COICOP
+
+

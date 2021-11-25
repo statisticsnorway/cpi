@@ -1,0 +1,98 @@
+﻿[Dictionary]
+Version=CSPro 7.5
+Label=menu
+Name=MENU_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+SecurityOptions=25A467935B94FBFED8DAAECC603536BC4DF25E48BCA7DB388B81F5D2D8353AF3
+
+[Languages]
+EN=English
+UA=Ukrainian
+
+[Level]
+Label=menu questionnaire
+Name=MENU_QUEST
+
+[IdItems]
+
+[Item]
+Label=menu identification
+Name=MENU_ID
+Start=2
+Len=1
+
+[Record]
+Label=menu record
+Name=MENU_REC
+RecordTypeValue='1'
+RecordLen=151
+
+[Item]
+Label=State
+Name=M_OBLAST_NO
+Start=3
+Len=2
+
+[Item]
+Label=City (Misto)
+Name=M_MISTO_NO
+Start=5
+Len=5
+
+[Item]
+Label=Enumerator
+Name=M_ENUMERATOR_NO
+Start=10
+Len=3
+
+[Item]
+Label=City name
+Name=M_MISTO_NAME
+Start=13
+Len=25
+DataType=Alpha
+
+[Item]
+Label=Shop or marked
+Name=M_SHOP_OR_MARKED
+Start=38
+Len=1
+
+[ValueSet]
+Label=Shop or marked
+Name=M_SHOP_OR_MARKED_VS1
+Value=1;Shop|магазин
+Value=2;Marked|ринку
+Value=3;Monitoring - shop
+Value=4;Monitoring - market
+
+[Item]
+Label=Shop|Магазин
+Name=M_SHOP
+Start=39
+Len=12
+
+[Item]
+Label=Shop name
+Name=M_SHOP_NAME
+Start=51
+Len=100
+DataType=Alpha
+
+[Item]
+Label=please choose
+Name=THEMENU
+Start=151
+Len=1
+
+[ValueSet]
+Label=please choose
+Name=THEMENU_VS1
+Value=1;Collect prices|збір цін
+Value=2;Sync with HQ|синхронізувати з ГО (головним офісом)
+Value=3;Initiate new month|Початок нового місяця
+Value=9;Quit|вихід
