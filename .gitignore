@@ -4,6 +4,7 @@
 *.pff
 *.lst
 *.log
+*.txt
 /Docs/*
 *.bak
 *.backup
